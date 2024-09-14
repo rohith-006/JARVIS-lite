@@ -13,7 +13,7 @@ import time
 
 import os  # For file handling and command generation
 
-openai.api_key = 'sk-hcMtJLZCtMkCU61hiU2ItPAUShGt6xi3E0xIu2IDHlT3BlbkFJqn9GeJIf0w7mTCY22XH6_46ITtToqb_Vb0o7tfuOAA'  # Replace with your valid OpenAI API key
+openai.api_key = ''  # Replace with your valid OpenAI API key
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
@@ -30,7 +30,7 @@ applications = {
     "telegram": "C:/Users/rohit/Downloads/tg/Telegram.exe",
 }
 
-# Helper functions
+# Helper functions creating a trayicon to control the assistant
 def create_image():
     image = Image.new('RGB', (64, 64), color=(0, 0, 0))
     dc = ImageDraw.Draw(image)
