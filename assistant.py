@@ -22,12 +22,12 @@ engine = pyttsx3.init()
 is_paused = False
 
 # Dictionary of applications to open
-applications = {
+applications = { #specify the path to your applications
     "notepad": "C:/Windows/System32/notepad.exe",
     "calculator": "C:/Windows/System32/calc.exe",
     "word": "C:/Program Files/Microsoft Office/root/Office16/WINWORD.EXE",
     "excel": "C:/Program Files/Microsoft Office/root/Office16/EXCEL.EXE",
-    "telegram": "C:/Users/rohit/Downloads/tg/Telegram.exe",
+    "telegram": "C:/Users/urname/Downloads/tg/Telegram.exe",
 }
 
 # Helper functions creating a trayicon to control the assistant
